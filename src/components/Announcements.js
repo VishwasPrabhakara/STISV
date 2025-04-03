@@ -1,0 +1,56 @@
+import React from 'react';
+import './Announcements.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
+
+const Announcements = () => {
+  return (
+    <>
+      <Navbar />
+
+      <div className="downloads-wrapper">
+        {/* Hero Banner */}
+        <section className="downloads-hero">
+          <h1 className="downloads-title">Announcements</h1>
+          <p className="downloads-subtitle">Stay informed with the latest official documents</p>
+        </section>
+
+        {/* Download Section */}
+        <section className="downloads-content">
+          {/* Brochure */}
+          <div className="download-card">
+            <h3>Announcement Brochure</h3>
+            <p>Details about STIS-V 2025, including themes, schedule highlights, and venue information.</p>
+            <a href="./brochure.pdf" download="STIS_Brochure.pdf" className="download-btn">
+              Download Brochure
+            </a>
+          </div>
+
+          {/* Flyer */}
+          <div className="download-card">
+            <h3>Event Flyer</h3>
+            <p>A quick overview of key conference dates, topics, and participation details.</p>
+            <a href="./flyer.pdf" download="STIS_Flyer.pdf" className="download-btn">
+              Download Flyer
+            </a>
+          </div>
+
+          {/* Abstract Template */}
+          <div className="download-card">
+            <h3>Abstract Template</h3>
+            <p>Use this official template to format your abstract for submission.</p>
+            <a href="./Abstract-Template.docx" download className="download-btn">
+              Download Abstract Template
+            </a>
+          </div>
+        </section>
+      </div>
+      <br />
+      <br />
+
+      <Footer />
+    </>
+  );
+};
+
+export default Announcements;

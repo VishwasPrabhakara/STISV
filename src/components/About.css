@@ -1,0 +1,410 @@
+/* General Page Layout */
+.about-page {
+  font-family: 'Segoe UI', sans-serif!important;
+  background: #fff!important;
+  color: #1a1a1a!important;
+  line-height: 1.6!important;
+  padding: 0!important;
+  margin: 0!important;
+}
+
+/* Hero Section */
+.about-hero-static {
+  background: url('/public/assets/about.jpg') no-repeat center center/cover!important;
+  height: 60vh!important;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  position: relative!important;
+}
+
+.about-hero-overlay {
+  background-color: rgba(0, 0, 0, 0.55)!important;
+  color: #fff!important;
+  padding: 2rem!important;
+  text-align: center!important;
+  width: 100%!important;
+}
+
+.about-title {
+  font-size: 2.8rem!important;
+  font-weight: bold!important;
+  margin-bottom: 0.5rem!important;
+}
+
+.about-subtitle {
+  font-size: 1.25rem!important;
+  font-weight: 300!important;
+  color: #f1f1f1!important;
+}
+
+/* Counters Section */
+.about-counters {
+  background: #f8f9fa!important;
+  padding: 3rem 1rem!important;
+}
+
+.counter-grid {
+  max-width: 1200px!important;
+  margin: 0 auto!important;
+  display: grid!important;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr))!important;
+  gap: 2rem!important;
+  text-align: center!important;
+}
+
+.counter-box h2 {
+  font-size: 2.5rem!important;
+  color: #0077b6!important;
+  margin-bottom: 0.3rem!important;
+}
+
+.counter-box p {
+  font-size: 1rem!important;
+  font-weight: 500!important;
+}
+
+/* Timeline Section */
+.about-timeline {
+  padding: 4rem 1rem!important;
+  background-color: #ffffff!important;
+  max-width: 1000px!important;
+  margin: 0 auto!important;
+}
+
+.section-heading {
+  text-align: center!important;
+  font-size: 2rem!important;
+  margin-bottom: 2rem!important;
+  color: #003566!important;
+}
+
+.timeline {
+  border-left: 3px solid #0077b6!important;
+  padding-left: 2rem!important;
+  position: relative!important;
+}
+
+.timeline-item {
+  position: relative!important;
+  margin-bottom: 2.5rem!important;
+  padding-left: 20px!important;
+}
+
+.timeline-dot {
+  position: absolute!important;
+  top: 0!important;
+  left: -12px!important;
+  width: 20px!important;
+  height: 20px!important;
+  background: #0077b6!important;
+  border-radius: 50%!important;
+  border: 3px solid #fff!important;
+  box-shadow: 0 0 0 3px #0077b6!important;
+}
+
+.timeline-dot.highlight {
+  background: #003566!important;
+}
+
+.timeline-content h3 {
+  font-size: 1.15rem!important;
+  margin-bottom: 0.4rem!important;
+  color: #212529!important;
+}
+
+.timeline-content p {
+  font-size: 0.95rem!important;
+  color: #444!important;
+}
+
+/* Parallax Section */
+.about-parallax {
+  background-image: url('https://github.com/kmranimesh/Web-dev-toolkit/blob/main/IISc_Ansuman.png?raw=true')!important;
+  background-attachment: fixed!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+  background-size: cover!important;
+  min-height: 320px!important;
+  display: flex!important;
+  align-items: center!important;
+  justify-content: center!important;
+  position: relative!important;
+  text-align: center!important;
+  color: #ffffff!important;
+  padding: 4rem 1rem!important;
+  overflow: hidden!important;
+}
+
+.about-parallax::before {
+  content: ''!important;
+  position: absolute!important;
+  inset: 0!important;
+  background: rgba(0, 0, 0, 0.5)!important;
+  z-index: 1!important;
+}
+
+.parallax-text {
+  position: relative!important;
+  z-index: 2!important;
+  max-width: 800px!important;
+}
+
+.parallax-text h2 {
+  font-size: 2rem!important;
+  margin-bottom: 0.5rem!important;
+  font-weight: 600!important;
+  color: #ffffff!important;
+}
+
+.parallax-text p {
+  font-size: 1.05rem!important;
+  font-weight: 400!important;
+  color: #ffffff!important;
+}
+
+/* Quote Section */
+.about-quote {
+  background-color: #f1f1f1!important;
+  padding: 3rem 1rem!important;
+  text-align: center!important;
+}
+
+.quote-card {
+  max-width: 800px!important;
+  margin: 0 auto!important;
+  font-style: italic!important;
+  color: #003566!important;
+}
+
+.quote-card blockquote {
+  font-size: 1.25rem!important;
+  margin-bottom: 1rem!important;
+}
+
+.quote-card cite {
+  display: block!important;
+  font-size: 1rem!important;
+  color: #555!important;
+}
+
+/* CTA Section */
+.about-cta {
+  background-color: #ffffff!important;
+  text-align: center!important;
+  padding: 4rem 1rem!important;
+}
+
+.about-cta h2 {
+  font-size: 2rem!important;
+  margin-bottom: 0.5rem!important;
+  color: #1d3557!important;
+}
+
+.about-cta p {
+  font-size: 1.1rem!important;
+  margin-bottom: 1.5rem!important;
+}
+
+.cta-buttons {
+  display: flex!important;
+  justify-content: center!important;
+  flex-wrap: wrap!important;
+  gap: 1rem!important;
+  margin-top: 1rem!important;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem!important;
+  font-size: 0.95rem!important;
+  font-weight: 600!important;
+  border: none!important;
+  border-radius: 5px!important;
+  text-decoration: none!important;
+  transition: background 0.3s ease!important;
+  cursor: pointer!important;
+}
+
+.btn-primary {
+  background-color: #0077b6!important;
+  color: white!important;
+}
+
+.btn-primary:hover {
+  color: #0077b6!important;
+  background-color: #ffffff!important;
+  border: 2px solid #0077b6!important;
+}
+
+.btn-secondary {
+  background: #ffb703!important;
+  color: white!important;
+}
+
+.btn-secondary:hover {
+  background-color: #ffffff!important;
+  color: #ffb703!important;
+  border: 2px solid #ffb703!important;
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2rem !important;
+  }
+
+  .about-subtitle {
+    font-size: 1rem !important;
+  }
+
+  .counter-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .counter-box h2 {
+    font-size: 2.2rem !important;
+  }
+
+  .counter-box p {
+    font-size: 1rem !important;
+  }
+
+  .timeline {
+    padding-left: 1.2rem !important;
+  }
+
+  .timeline-dot {
+    width: 18px !important;
+    height: 18px !important;
+    left: -11px !important;
+  }
+
+  .timeline-content h3 {
+    font-size: 1.05rem !important;
+  }
+
+  .timeline-content p {
+    font-size: 0.93rem !important;
+  }
+
+  .parallax-text h2 {
+    font-size: 1.6rem !important;
+  }
+
+  .parallax-text p {
+    font-size: 1rem !important;
+  }
+
+  .quote-card blockquote {
+    font-size: 1.15rem !important;
+  }
+
+  .quote-card cite {
+    font-size: 0.95rem !important;
+  }
+
+  .about-cta h2 {
+    font-size: 1.7rem !important;
+  }
+
+  .about-cta p {
+    font-size: 1.05rem !important;
+  }
+
+  .btn {
+    width: 100% !important;
+    padding: 0.75rem 1.2rem !important;
+    font-size: 0.95rem !important;
+  }
+
+  .cta-buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+
+  .about-parallax {
+    background-attachment: scroll !important; /* fallback */
+  }
+}
+
+
+@media (max-width: 480px) {
+  .about-hero-overlay {
+    padding: 1.5rem !important;
+  }
+
+  .about-title {
+    font-size: 1.6rem !important;
+  }
+
+  .about-subtitle {
+    font-size: 0.95rem !important;
+  }
+
+  .counter-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.2rem !important;
+  }
+
+  .counter-box h2 {
+    font-size: 2rem !important;
+  }
+
+  .counter-box p {
+    font-size: 0.95rem !important;
+  }
+
+  .timeline {
+    padding-left: 1rem !important;
+  }
+
+  .timeline-dot {
+    width: 16px !important;
+    height: 16px !important;
+    left: -10px !important;
+  }
+
+  .timeline-content h3 {
+    font-size: 1rem !important;
+  }
+
+  .timeline-content p {
+    font-size: 0.9rem !important;
+  }
+
+  .parallax-text h2 {
+    font-size: 1.3rem !important;
+  }
+
+  .parallax-text p {
+    font-size: 0.9rem !important;
+  }
+
+  .quote-card blockquote {
+    font-size: 1.05rem !important;
+  }
+
+  .quote-card cite {
+    font-size: 0.9rem !important;
+  }
+
+  .about-cta h2 {
+    font-size: 1.5rem !important;
+  }
+
+  .about-cta p {
+    font-size: 1rem !important;
+  }
+
+  .btn {
+    width: 80% !important;
+    padding: 0.7rem 1rem !important;
+    font-size: 0.9rem !important;
+  }
+
+  .cta-buttons {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}

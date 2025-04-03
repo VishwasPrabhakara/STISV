@@ -1,0 +1,204 @@
+/* ================================
+   Distinguished Speakers Styles
+================================== */
+
+.distinguished-speakers-container {
+  padding: 2rem 1rem;
+  background-color: #f9fafc;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1a1a1a;
+  margin-top: -2rem;
+}
+
+/* ================================
+   Section Title
+================================== */
+.section-title {
+  text-align: center;
+  margin-left: 500px;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #003566;
+  border-bottom: 3px solid #0077b6;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+/* ================================
+   Carousel (Auto + Manual Scroll)
+================================== */
+
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 1rem 0;
+  width: 100%;
+  -webkit-overflow-scrolling: touch; /* iOS smooth scroll */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Carousel Buttons */
+.carousel-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #0077b6;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.carousel-btn:hover {
+  color: #003566;
+}
+
+/* Static Scroll (Plenary Section) */
+.static-scroll {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  display: flex;
+}
+
+/* ================================
+   Speaker Card Styling
+================================== */
+
+.speaker-card {
+  flex: 0 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.speaker-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.speaker-avatar img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.speaker-info {
+  padding: 1rem;
+}
+
+.speaker-info h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.3rem;
+  color: #003566;
+}
+
+.speaker-info p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* ================================
+   Responsive Design - Tablets
+================================== */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.8rem;
+    margin: 0 auto 2rem;
+    text-align: center;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carousel {
+    gap: 1rem;
+    padding: 0.5rem 0;
+  }
+
+  .carousel-btn {
+    font-size: 1.8rem;
+  }
+
+  .speaker-card {
+    width: 180px;
+  }
+
+  .speaker-avatar img {
+    height: 180px;
+  }
+
+  .speaker-info h4 {
+    font-size: 0.95rem;
+  }
+
+  .speaker-info p {
+    font-size: 0.85rem;
+  }
+}
+
+/* ================================
+   Responsive Design - Phones
+================================== */
+@media (max-width: 480px) {
+  .distinguished-speakers-container {
+    padding: 2.5rem 0.8rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .carousel-wrapper {
+    gap: 0.5rem;
+  }
+
+  .carousel {
+    gap: 1rem;
+  }
+
+  .carousel-btn {
+    font-size: 1.6rem;
+  }
+
+  .speaker-card {
+    width: 150px;
+  }
+
+  .speaker-avatar img {
+    height: 150px;
+  }
+
+  .speaker-info h4 {
+    font-size: 0.9rem;
+  }
+
+  .speaker-info p {
+    font-size: 0.8rem;
+  }
+}
