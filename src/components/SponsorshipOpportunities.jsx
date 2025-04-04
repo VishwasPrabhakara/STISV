@@ -8,26 +8,25 @@ const sponsorshipTiers = [
     title: 'Platinum Sponsor',
     amount: '₹7,00,000',
     benefits: [
-      'Brand visibility in all official communications',
+      'Name would appear in all official correspondence',
       'Complimentary registration for 4 delegates',
-      'Full-page advertisement in souvenir',
-      'Exclusive stall space at the exhibition',
+      'One page advertisement in souvenir & a stall in exhibition'
     ],
   },
   {
     title: 'Gold Sponsor',
     amount: '₹5,00,000',
     benefits: [
-      'Brand visibility in all official communications',
+      'Name would appear in all official correspondence',
       'Complimentary registration for 3 delegates',
-      'Full-page advertisement in souvenir',
+      'One page advertisement in souvenir',
     ],
   },
   {
     title: 'Silver Sponsor',
     amount: '₹3,00,000',
     benefits: [
-      'Brand visibility in all official communications',
+      'Name would appear in all official correspondence',
       'Complimentary registration for 2 delegates',
       'Half-page advertisement in souvenir',
     ],
@@ -39,10 +38,9 @@ const eventSponsorships = [
     title: 'Conference Banquet',
     amount: '₹7,00,000',
     benefits: [
-      'Special announcement and banner display at the banquet',
+      'Announcement & banner display at the banquet',
       'Complimentary registration for 4 delegates',
-      'Full-page advertisement in souvenir',
-      'Stall at the exhibition',
+      'One page advertisement in souvenir & a stall in exhibition'
     ],
   },
   {
@@ -51,14 +49,14 @@ const eventSponsorships = [
     benefits: [
       'Special announcement and banner display at the dinner',
       'Complimentary registration for 3 delegates',
-      'Full-page advertisement in souvenir',
+      'One page advertisement in souvenir',
     ],
   },
   {
     title: 'Lunch Sponsorship (3 Days)',
     amount: '₹2,50,000 (Per Lunch)',
     benefits: [
-      'Special announcement and banner display during lunch',
+      'Announcement & banner display at the banquet',
       'Complimentary registration for 1 delegate',
       'Half-page advertisement in souvenir',
     ],
@@ -78,7 +76,7 @@ const SponsorshipOpportunities = () => {
     <div className="sponsorship-container">
       <h1 className="sponsorship-heading">Sponsorship & Exhibition Opportunities</h1>
       <p className="sponsorship-intro">
-        The STIS-V 2025 offers a unique platform to showcase your brand to an international audience of researchers, industry experts, and academicians. We invite organizations to support the event through various sponsorship and exhibition opportunities.
+        The STIS-V 2025 offers a unique platform to showcase your organization to an international audience of researchers, industry experts, and academicians. The various sponsorship and exhibition opportunities are highlighted below-
       </p>
 
       {/* Sponsorship Tiers */}

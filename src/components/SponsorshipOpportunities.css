@@ -50,8 +50,8 @@
 ================================ */
 .sponsorship-cards {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
   justify-content: center;
 }
 
@@ -59,7 +59,7 @@
   background: #ffffff;
   padding: 1.5rem;
   border-radius: 10px;
-  width: 100%;
+  width: 80%;
   max-width: 350px;
   box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease;
@@ -67,6 +67,8 @@
 
 .sponsor-card:hover {
   transform: translateY(-5px);
+  border: 1px solid black;
+  
 }
 
 .sponsor-card h3 {

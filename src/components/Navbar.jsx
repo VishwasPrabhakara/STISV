@@ -99,7 +99,7 @@ const Navbar = () => {
         ])}
 
         <NavLink to="/conference-registration" onClick={() => handleNavClick("/conference-registration")}>
-          Conference Registration
+          Registration
         </NavLink>
 
         <NavLink to="/sponsorship-opportunities" onClick={() => handleNavClick("/sponsorship-opportunities")}>

@@ -130,8 +130,16 @@ const NewUserRegistration = () => {
               {formData.password && !isPasswordValid(formData.password) && (
                 <div className="password-validation">
                   <ul>
-                    {Object.entries(getPasswordValidationStatus(formData.password)).map(([key, valid]) => (
-                      <li key={key} className={valid ? "valid" : "invalid"}>{valid ? "✅" : "❌"} {key.replace(/([A-Z])/g, ' $1')}</li>
+                    {[
+                      { key: "length", text: "Minimum 8 characters" },
+                      { key: "uppercase", text: "At least one uppercase letter" },
+                      { key: "lowercase", text: "At least one lowercase letter" },
+                      { key: "number", text: "At least one number" },
+                      { key: "specialChar", text: "At least one special character" },
+                    ].map(({ key, text }) => (
+                      <li key={key} className={getPasswordValidationStatus(formData.password)[key] ? "valid" : "invalid"}>
+                        {getPasswordValidationStatus(formData.password)[key] ? "✅" : "❌"} {text}
+                      </li>
                     ))}
                   </ul>
                 </div>
@@ -187,16 +195,18 @@ const NewUserRegistration = () => {
               <label htmlFor="fullName">Full Name <span className="required">*</span></label>
             </div>
 
-            <div className={`floating-group ${formData.country ? "has-value" : ""}`}>
-              <Select
-                options={options}
-                value={options.find(opt => opt.label === formData.country)}
-                onChange={(val) => setFormData({ ...formData, country: val.label })}
-                classNamePrefix="country-select"
-                placeholder="Select your country"
-              />
-              <label htmlFor="country">Country/Region <span className="required">*</span></label>
-            </div>
+            <div className="floating-group">
+  <label className="static-label">Country/Region <span className="required">*</span></label>
+  <div className="react-select-wrapper">
+    <Select
+      options={options}
+      value={options.find(opt => opt.label === formData.country)}
+      onChange={(val) => setFormData({ ...formData, country: val.label })}
+      classNamePrefix="country-select"
+      placeholder="Select your country"
+    />
+  </div>
+</div>
 
             <div className="floating-group">
               <input type="text" name="affiliation" value={formData.affiliation} onChange={handleChange} placeholder=" " required />
@@ -217,7 +227,6 @@ const NewUserRegistration = () => {
                 <p style={{ color: "#fff", marginTop: "1rem" }}>Processing your registration...</p>
               </div>
             )}
-
           </form>
         </div>
       </div>
