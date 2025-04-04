@@ -50,25 +50,7 @@ const Accommodation = () => {
         { name: "Airport Transfer", icon: Car }
       ]
     },
-    {
-      id: 2,
-      name: "Le Meridien Bengaluru",
-      category: "5★ Premium",
-      website: "https://le-meridien.hotels-in-bangalore.com/en/",
-      distance: "3 km from Venue",
-      description: "Luxury meets modern design with top-class amenities and ideal proximity to the venue.",
-      rates: {
-        single: { inr: 11000, usd: 132, tax: 18 },
-        double: { inr: 13500, usd: 162, tax: 18 }
-      },
-      amenities: [
-        { name: "Breakfast Included", icon: Coffee },
-        { name: "High-Speed WiFi", icon: Wifi },
-        { name: "Business Center", icon: Building2 },
-        { name: "Gym Access", icon: Dumbbell },
-        { name: "Room Service", icon: Utensils }
-      ]
-    },
+
     {
       id: 3,
       name: "The Lalit Ashok",
