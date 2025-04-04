@@ -66,7 +66,7 @@
   
   .admin-login-form label {
     position: absolute;
-    left: 40px;
+    left: 10px;
     top: 50%;
     transform: translateY(-50%);
     background: #fff;
@@ -78,10 +78,10 @@
   
   .admin-login-form input:focus + label,
   .admin-login-form input:not(:placeholder-shown) + label {
-    top:  2px!important;
+    top:  -10px!important;
     font-size: 0.75rem;
     color: #0077cc;
-    left: 40px;
+    left: 10px;
   }
   
   .admin-login-btn {
@@ -96,6 +96,8 @@
     cursor: pointer;
     font-size: 1rem;
     transition: background-color 0.3s ease;
+    margin-left: 70px;
+    margin-right: 70px;
   }
   
   .admin-login-btn:hover {
@@ -109,7 +111,7 @@
   
   .password-toggle {
     position: absolute;
-    right: 50px;
+    right: 80px;
     top: 40%;
     transform: translateY(-50%);
     cursor: pointer;

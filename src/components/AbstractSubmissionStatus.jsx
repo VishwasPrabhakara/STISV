@@ -380,7 +380,7 @@ const AbstractSubmissionStatus = () => {
                   Your abstract is still <strong>under review</strong>. We will update you once the review is complete.
                 </p>
                 <p className="submission-instruction">
-                  ✍️ Please make changes if needed and then click on <strong>"Submit Abstract"</strong> to confirm the final version for review.
+                  Please make changes if needed and then click on <strong>"Submit Abstract"</strong> to confirm the final version for review.
                 </p>
 
                 <div className="main-action-row">
