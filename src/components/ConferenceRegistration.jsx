@@ -19,6 +19,7 @@ const ConferenceRegistration = () => {
     Thank you for your interest and enthusiasm!
   </p>
 </div>
+
 <br />
       <br />
       <Footer />
