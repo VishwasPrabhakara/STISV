@@ -44,10 +44,40 @@ const Announcements = () => {
             </a>
           </div>
         </section>
-      </div>
-      <br />
-      <br />
 
+        {/* Latest Announcements Section */}
+        <section className="announcement-board">
+          <div className="announcement-container">
+            <h2 className="announcement-heading">Latest Announcements</h2>
+            <ul className="announcement-list">
+              <li>
+                <div className="announcement-meta">
+                  <span className="announcement-badge new">New</span>
+                  <span className="announcement-date">April 1, 2025</span>
+                </div>
+                Registration details will be updated shortly.
+              </li>
+              <li>
+                <div className="announcement-meta">
+                  <span className="announcement-badge info">Info</span>
+                  <span className="announcement-date">March 30, 2025</span>
+                </div>
+                Abstract submission deadline: <strong>30th April, 2025</strong>.
+              </li>
+              <li>
+                <div className="announcement-meta">
+                  <span className="announcement-badge info">Info</span>
+                  <span className="announcement-date">March 25, 2025</span>
+                </div>
+                Abstract Template is now available for download.
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <br />
+      <br />
       <Footer />
     </>
   );
