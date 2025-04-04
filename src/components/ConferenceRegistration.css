@@ -1,31 +1,32 @@
 .registration-page .registration-coming-soon {
-  background-color: #e8f0fe;
-  border-left: 6px solid #1a73e8;
-  padding: 2rem;
-  border-radius: 12px;
+  background-color: #f9fbfe;
+  border-left: 5px solid #0056b3;
+  padding: 2.5rem 2rem;
+  border-radius: 10px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  margin-bottom: 2rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  margin: 2rem auto;
   max-width: 720px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .registration-page .coming-title {
-  font-size: 1.8rem;
-  font-weight: 600;
-  color: #174ea6;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #003366;
   margin-bottom: 1rem;
+  letter-spacing: 0.5px;
 }
 
 .registration-page .coming-text {
-  font-size: 1.05rem;
-  color: #333333;
+  font-size: 1.075rem;
+  color: #333;
+  line-height: 1.7;
   margin-bottom: 0.5rem;
 }
 
 .registration-page .coming-note {
-  font-weight: 500;
-  color: #174ea6;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #0056b3;
   margin-top: 1rem;
 }
