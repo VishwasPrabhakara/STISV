@@ -26,7 +26,7 @@ const Venue = () => {
           <h2>Indian Institute of Science, Bengaluru</h2>
           <p>
             Nestled in the heart of Bengaluru, the <strong>Indian Institute of Science (IISc)</strong> is an iconic institution
-            known globally for its contribution to science, engineering, and research. The tranquil, tree-lined campus and world-class infrastructure offer a perfect blend of tradition and innovation.
+            known globally for its contribution to science, engineering and research. The tranquil, tree-lined campus and world-class infrastructure offer a perfect blend of tradition and innovation.
           </p>
         </div>
 
@@ -42,7 +42,7 @@ const Venue = () => {
           </div>
           <div className="venue-card">
             <h3>🌐 Facilities</h3>
-            <p>High-speed internet, printing, international communication, and lounge access.</p>
+            <p>High-speed internet, printing and lounge access.</p>
           </div>
           <div className="venue-card">
             <h3>🌿 Campus</h3>
