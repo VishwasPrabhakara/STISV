@@ -72,27 +72,45 @@ const AbstractSubmission = () => {
 
 
 
-        {/* === Abstract Action Buttons === */}
-        <section className="abstract-actions">
-          <h2 className="section-subtitle">Submit or Check Your Abstract</h2>
-          {hasSubmittedAbstract ? (
-            <>
-              <div className="button-group">
-                <button className="btn btn-primary" onClick={handleViewStatus}>
-                  View Submission Status
-                </button>
-              </div>
-              <p className="success-message">You have already submitted an abstract.</p>  
-            </>
-          ) : (
-            <div className="button-group">
-              <button className="btn btn-primary" onClick={handleSubmitRedirect}>
-                Submit Abstract Now
-              </button>
-              {errorMessage && <p className="error-message">{errorMessage}</p>}
-            </div>
-          )}
-        </section>
+{/* === Abstract Action Buttons === */}
+<section className="abstract-actions">
+  <h2 className="section-subtitle">Submit or Check Your Abstract</h2>
+  {hasSubmittedAbstract ? (
+    <>
+      <div className="button-group">
+        <button className="btn btn-primary" onClick={handleViewStatus}>
+          View Submission Status
+        </button>
+      </div>
+      <p className="success-message">You have already submitted an abstract.</p>  
+    </>
+  ) : (
+    <>
+      <div className="button-group center-buttons">
+        <button className="btn btn-primary" onClick={handleSubmitRedirect}>
+          Submit Abstract Now
+        </button>
+        <a
+          className="btn btn-secondary"
+          href="/assets/Abstract-Template.docx"
+          download
+        >
+          Download Abstract Template
+        </a>
+      </div>
+
+      {errorMessage && (
+        <p className="error-message centered-text">{errorMessage}</p>
+      )}
+
+      <p className="info-message centered-text">
+        Please kindly ensure that your abstract strictly follows the provided template before submission.
+      </p>
+    </>
+  )}
+</section>
+
+
 
         <div className="submission-info-sections">
   {/* === Author Instructions === */}
@@ -105,7 +123,7 @@ const AbstractSubmission = () => {
       <li>🔹 Use only the official template provided.</li>
     </ul>
     <a
-      href="/Abstract-Template.docx"
+      href="/assets/Abstract-Template.docx"
       className="template-download"
       download
     >
@@ -119,9 +137,9 @@ const AbstractSubmission = () => {
     <p>
       For submission-related queries, contact us at: <br />
       <a href="mailto:stis.mte@iisc.ac.in" className="email-link">
-        stis.mte@iisc.ac.in  <br /> or <br />
+        stis.mte@iisc.ac.in  
       </a>
-  
+      <br /> or <br />
       <button className="btn btn-primary" onClick={handleRedirect}>
                 Contact Us
       </button>
