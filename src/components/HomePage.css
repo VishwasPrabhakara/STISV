@@ -56,12 +56,6 @@
   color: white!important;
   text-align: center;
 }
-
-
-
-
-
-
 /* Title Styles */
 .hero-title {
   font-size: 2.4rem;
@@ -225,6 +219,7 @@
     width: 80%;
     font-size: 0.9rem;
     padding: 0.7rem;
+    align-self: center;
   }
 
   .countdown-wrapper {

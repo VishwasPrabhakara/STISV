@@ -75,7 +75,7 @@ const HomePage = () => {
           {/* Call to Action Buttons */}
           <div className="cta-buttons">
             <a
-              href="/Abstract-Template.docx"
+              href="./Abstract-Template.docx"
               className="cta-btn cta-download"
               download
             >

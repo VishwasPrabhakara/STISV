@@ -21,7 +21,7 @@ const Programme = () => {
         <h2 className="important-dates-heading">Important Dates</h2>
         <div className="dates-cards-container">
           <div className="date-card">
-            <h3>Abstract Submission</h3>
+            <h3>Abstract Submission Deadine</h3>
             <p>30<sup>th</sup> April 2025</p>
           </div>
           <div className="date-card">
@@ -29,7 +29,7 @@ const Programme = () => {
             <p>30<sup>th</sup> May 2025</p>
           </div>
           <div className="date-card">
-            <h3>Final Paper Submission</h3>
+            <h3>Final Paper Submission Deadline</h3>
             <p>30<sup>th</sup> September 2025</p>
           </div>
         </div>

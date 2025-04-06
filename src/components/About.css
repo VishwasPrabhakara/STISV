@@ -10,7 +10,8 @@
 
 /* ===================== Hero Section ===================== */
 .about-page .about-hero-static {
-  background: url('/public/assets/about.jpg') no-repeat center center/cover;
+  background: url('/public/assets/about.jpg') no-repeat  center/cover;
+  
   height: 60vh;
   display: flex;
   align-items: center;
@@ -129,7 +130,7 @@
   }
 
   .about-page .about-parallax {
-    background-attachment: scroll; /* fallback for mobile */
+    background-attachment: fixed; /* fallback for mobile */
   }
 }
 
