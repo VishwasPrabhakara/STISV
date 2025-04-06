@@ -166,6 +166,54 @@ const DistinguishedSpeaker = () => {
       url: "https://home.iitk.ac.in/~dipak/",
       imagePath: "/assets/speakers_upscaled/Dipak Mazumdar.jpg"
     },
+
+    {
+      name: "Prof. R H Tupkary",
+      affiliation: "Former Prof VNIT Nagpur",
+      url: "",
+      imagePath: "/assets/speakers_upscaled/R H Tupkary.jpeg"
+    },
+
+    {
+      name: "Prof. GG Roy",
+      affiliation: "IIT Kharagpur",
+      url: "http://www.metal.iitkgp.ac.in/People/facultyDetails/6",
+      imagePath: "/assets/speakers_upscaled/GG Roy.png"
+    },
+
+    {
+      name: "Mr. Keith Vining",
+      affiliation: "CSIRO, Australia",
+      url: "https://people.csiro.au/V/K/Keith-Vining",
+      imagePath: "/assets/speakers_upscaled/Keith-Vining.jpeg"
+    },
+
+    {
+      name: "Prof. AK Singh",
+      affiliation: " IIT Kanpur",
+      url: "https://www.iitk.ac.in/new/amarendra-kumar-singh ",
+      imagePath: "/assets/speakers_upscaled/amrendra-singh.jpeg"
+    },
+
+    {
+      name: "Prof. LIU Jianhua",
+      affiliation: "USTB, China",
+      url: "https://ieten.ustb.edu.cn/Discipline/yjgcly/2019-12-07/ed15a296dd6f480d97ec60ea1b7d5af3.htm",
+      imagePath: "/assets/speakers_upscaled/LIU Jianhua.jpeg"
+    },
+
+    {
+      name: "Prof. Kamalesh Mandal",
+      affiliation: "Steel Dynamics",
+      url: "https://www.linkedin.com/in/kamalesh-mandal-phd-49140626/",
+      imagePath: "/assets/speakers_upscaled/Kamalesh Mandal.jpeg"
+    },
+
+
+
+
+
+
   ];
   
 
