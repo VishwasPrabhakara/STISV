@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+🏛️ STISV — Conference Platform Prototype
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Early prototype of the official platform for STIS-V 2025, the Fifth International Conference on the Science & Technology of Ironmaking and Steelmaking, hosted at IISc Bengaluru.
 
-## Available Scripts
+Live Site (production): https://materials.iisc.ac.in/stis2025/ <br />
+Production Repo: ![STISV_Server](https://github.com/VishwasPrabhakara/STISV_Server)
 
-In the project directory, you can run:
+⚠️ Status
+This repository is the first iteration of the STIS-V conference platform. It was used to scaffold the initial site structure, page layouts, and component design.
+The fully featured production version — with full registration flow, MongoDB-backed database, admin tools, and PDF generation — lives in STISV_Server.
 
-### `npm start`
+What's here
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+React-based frontend (Create React App)
+Initial page layouts: About, Programme, Venue, Sponsors
+Static content scaffolding before the backend was integrated
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🛠️ Stack
 
-### `npm test`
+React (Create React App) — frontend
+JavaScript · CSS · HTML
+Node.js — early-stage server scaffolding
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🏃 Run Locally
+bashgit clone https://github.com/VishwasPrabhakara/STISV.git
+cd STISV
+npm install
+npm start
+Opens at http://localhost:3000.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📝 Built By
+Vishwas Prabhakara for the Indian Institute of Science (IISc) — STIS-V 2025 organizing team.
+GitHub · LinkedIn
