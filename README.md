@@ -3,7 +3,7 @@
 Early prototype of the official platform for STIS-V 2025, the Fifth International Conference on the Science & Technology of Ironmaking and Steelmaking, hosted at IISc Bengaluru.
 
 Live Site (production): https://materials.iisc.ac.in/stis2025/ <br />
-Production Repo: ![STISV_Server](https://github.com/VishwasPrabhakara/STISV_Server)
+Production Repo: [STISV_Server](https://github.com/VishwasPrabhakara/STISV_Server)
 
 ⚠️ Status
 This repository is the first iteration of the STIS-V conference platform. It was used to scaffold the initial site structure, page layouts, and component design.
