@@ -22,12 +22,14 @@ JavaScript · CSS · HTML
 Node.js — early-stage server scaffolding
 
 🏃 Run Locally
-bashgit clone https://github.com/VishwasPrabhakara/STISV.git
+```bash
+git clone https://github.com/VishwasPrabhakara/STISV.git
 cd STISV
 npm install
 npm start
+```
 Opens at http://localhost:3000.
 
 📝 Built By
 Vishwas Prabhakara for the Indian Institute of Science (IISc) — STIS-V 2025 organizing team.
-GitHub · LinkedIn
+[GitHub](https://github.com/VishwasPrabhakara) · [LinkedIn](https://www.linkedin.com/in/vishwas-prabhakara/)
